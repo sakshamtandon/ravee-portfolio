@@ -1,53 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>About — Ravee Bhatt</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=General+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- SAME CSS AS INDEX -->
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/themes.css">
-  <link rel="stylesheet" href="css/animations.css">
 </head>
 
 <body>
-<div class="cursor"></div>
 
 <header class="nav">
-  <a href="index.html" class="logo">Ravee</a>
-  <nav>
-    <a href="about.html" class="active">About</a>
-    <a href="work.html">Work</a>
-    <a href="services.html">Services</a>
-    <a href="contact.html">Contact</a>
-    <button id="theme-toggle" class="theme-toggle">
-      <span class="sun"></span>
-      <span class="moon"></span>
-    </button>
-  </nav>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">Ravee</a>
+    <nav class="nav-links">
+      <a href="about.html">About</a>
+      <a href="work.html">Work</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
 </header>
 
-<main class="about">
-  <section class="about-hero reveal">
-    <h1>I don’t believe in posting just to stay visible.</h1>
-    <p>
-      [This is where you explain your philosophy around branding,
-      clarity, and strategy-led content.]
-    </p>
-  </section>
+<main class="hero">
+  <h1>
+    I don’t believe in posting just to stay visible.
+  </h1>
 
-  <section class="about-story reveal">
-    <h2>My story</h2>
-    <p>
-      [Tell your journey — education, PR background,
-      research mindset, and how it shaped your thinking.]
-    </p>
-  </section>
+  <p class="hero-subtext">
+    I believe in clarity before creativity — and strategy before scale.
+    Every piece of content should have a reason to exist, not just a slot to fill.
+  </p>
+
+  <h2 style="margin-top: 4rem;">My story</h2>
+
+  <p class="hero-subtext">
+    With a background in PR, research, and marketing, I learned early that
+    attention is easy to get — trust is not. My work focuses on helping brands
+    communicate with intention, consistency, and personality, so they’re remembered
+    long after the scroll ends.
+  </p>
 </main>
 
-<script src="js/main.js"></script>
-<script src="js/theme.js"></script>
-<script src="js/animations.js"></script>
 </body>
 </html>
