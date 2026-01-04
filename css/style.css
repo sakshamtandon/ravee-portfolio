@@ -1,0 +1,37 @@
+:root {
+  --font-heading: 'General Sans', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.hero {
+  min-height: 80vh;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1, h2 {
+  font-family: var(--font-heading);
+}
+
+.btn {
+  margin-top: 2rem;
+  padding: 1rem 2.2rem;
+  border: 1px solid currentColor;
+  text-decoration: none;
+}
